@@ -10,7 +10,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-@media (min-width: 320px) {
   div.secundary-header {
     background-color: #D1891C;
     padding: 5px;
@@ -49,7 +48,7 @@ div.secundary-header span {
 
   .sticky-button {
     position: fixed;
-    top: 85%;
+    top: 80%;
     left: 85%;
     bottom: 10%;
   }
@@ -112,10 +111,6 @@ div.secundary-header span {
     bottom: 75px;
   }
 
-  img.web {
-    display: none;
-  }
-
   .item-card-title {
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -132,6 +127,8 @@ div.secundary-header span {
     color: white;
     border: none;
     margin: auto;
+    outline: none;
+    cursor: pointer;
   }
 
   footer {
@@ -150,23 +147,21 @@ div.secundary-header span {
   }
 
   img.logo-footer {
-    width: 15%;
+    width: 30%;
   }
+.logo-footer{
+  width: 40%;
 }
+
 
 @media (min-width: 768px) {
   .cards-container {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
-  /* img.mobile{
-    display: none;
-  }
-  img.web{
-    display: block;
-  } */
   .sticky-button i {
     font-size: 3rem;
   }
@@ -181,9 +176,21 @@ div.secundary-header span {
 .sticky-button i:hover{
   color: #014369;
 }
-
+img.logo-footer {
+  width: 30%;
+  float: right;
+  margin-right: 15px;
 }
-/* @media (min-width: 1024px){ */
+footer {
+  justify-content:flex-end;
+  flex-direction: row;
+  font-size: 1rem;
+}
+div.logo-footer {
+  width: 30%;
+}
+}
+@media (min-width: 1024px){ 
   .cards-container {
     flex-wrap: wrap;
   }
@@ -192,17 +199,24 @@ div.secundary-header span {
     margin: 25px 15px;
   }
   
-   /* .sticky-button {
+   .sticky-button {
     display: none;
-  }  */
+  }  
   
   .cards-container{
     margin: 0;
   }
+  /* img.logo-footer {
+    width: 20%;
+    float: right;
+    margin-right: 15px;
+  }
   footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content:flex-end;
+    flex-direction: row;
     font-size: 1rem;
   }
-  
+  div.logo-footer {
+    width: 40%;
+  } */
+}
