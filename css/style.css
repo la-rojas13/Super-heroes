@@ -21,7 +21,7 @@ div.secundary-header span {
 }
   .main-header {
     background-color: #00669F;
-    height: 100px;
+    height: 80px;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
     padding: 20px;
     line-height: 47px;
@@ -49,8 +49,9 @@ div.secundary-header span {
 
   .sticky-button {
     position: fixed;
-    bottom: 9%;
-    left: 88%;
+    top: 85%;
+    left: 85%;
+    bottom: 10%;
   }
 
   .sticky-button i {
@@ -170,29 +171,38 @@ div.secundary-header span {
     font-size: 3rem;
   }
   .sticky-button {
-    right: -5px;
     top: 74%;
+    left:92%;
 }
+.sticky-button:hover{
+  cursor: pointer;
+  
 }
-
-.cards-container {
-  flex-wrap: wrap;
-}
-
-.item-card {
-  margin: 25px 15px;
-}
-
-.sticky-button {
-  display: none;
+.sticky-button i:hover{
+  color: #014369;
 }
 
-.cards-container{
-  margin: 0;
 }
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-}
+/* @media (min-width: 1024px){ */
+  .cards-container {
+    flex-wrap: wrap;
+  }
+  
+  .item-card {
+    margin: 25px 15px;
+  }
+  
+   /* .sticky-button {
+    display: none;
+  }  */
+  
+  .cards-container{
+    margin: 0;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+  }
+  
