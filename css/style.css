@@ -10,149 +10,157 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-  div.secundary-header {
-    background-color: #D1891C;
-    padding: 5px;
-    color: #333333;
-  }
+div.secundary-header {
+  background-color: #D1891C;
+  padding: 5px;
+  color: #333333;
+}
+
 div.secundary-header span {
   padding-left: 15px;
 }
-  .main-header {
-    background-color: #00669F;
-    height: 80px;
-    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
-    padding: 20px;
-    line-height: 47px;
-    font-size: 0.8rem;
-  }
 
-  .main-header h1 {
-    text-transform: capitalize;
-    color: white;
-  }
-
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .cards-container {
-    margin-left: -5%;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5%;
-    align-items: center;
-  }
-
-  .sticky-button {
-    position: fixed;
-    top: 80%;
-    left: 85%;
-    bottom: 10%;
-  }
-
-  .sticky-button i {
-    color: #00669F;
-    font-size: 2.2rem;
-  }
-
-  .item-card {
-    width: 300px;
-    height: 580px;
-    background-color: #F3F3F3;
-    border-radius: 10px;
-    margin: 20px;
-    text-align: center;
-  }
-
-  .card-img {
-    width: 300px;
-    height: 193px;
-  }
-
-  .img-batman {
-    background-image: url('../img/batman-background.png');
-  }
-
-  .img-harley {
-    background-image: url('../img/harley-background.png');
-  }
-
-  .img-woman {
-    background-image: url('../img/wonderwoman-background.png');
-    border-radius: 10px 10px 0 0;
-  }
-
-  .img-superman {
-    background-image: url('../img/superman-background.png');
-    border-radius: 10px 10px 0 0;
-  }
-
-  .card-content {
-    margin: 5px 20px;
-    position: relative;
-    bottom: 60px;
-  }
-
-  img.heart-icon {
-    right: 115px;
-    position: relative;
-    top: 15px;
-  }
-
-  img.img-profile {
-    position: relative;
-    border-radius: 50%;
-    width: 120px;
-    height: 118px;
-    box-shadow: 0px 2px 7px rgb(0 0 0 / 25%);
-    bottom: 75px;
-  }
-
-  .item-card-title {
-    text-transform: uppercase;
-    margin-bottom: 5px;
-  }
-
-  .harley-title {
-    text-transform: none;
-  }
-
-  button.btn-card {
-    background-color: #00669F;
-    width: 130px;
-    height: 50px;
-    color: white;
-    border: none;
-    margin: auto;
-    outline: none;
-    cursor: pointer;
-  }
-
-  footer {
-    width: 100%;
-    height: 50px;
-    background-color: #00669F;
-    /* position: fixed; */
-    color: white;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 0.8rem;
-  }
-
-  img.logo-footer {
-    width: 30%;
-  }
-.logo-footer{
-  width: 40%;
+.main-header {
+  background-color: #00669F;
+  height: 80px;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  line-height: 47px;
+  font-size: 0.8rem;
 }
 
+.main-header h1 {
+  text-transform: capitalize;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container {
+  margin-left: -5%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+  align-items: center;
+}
+
+.sticky-button {
+  position: fixed;
+  top: 80%;
+  left: 85%;
+}
+
+.sticky-button i {
+  color: #00669F;
+  font-size: 2.2rem;
+}
+
+.item-card {
+  width: 300px;
+  height: 580px;
+  background-color: #F3F3F3;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+.card-img {
+  width: 300px;
+  height: 193px;
+}
+
+.card-content p {
+  height: 190px;
+}
+
+.img-batman {
+  background-image: url('../img/batman-background.png');
+}
+
+.img-harley {
+  background-image: url('../img/harley-background.png');
+}
+
+.img-woman {
+  background-image: url('../img/wonderwoman-background.png');
+  border-radius: 10px 10px 0 0;
+}
+
+.img-superman {
+  background-image: url('../img/superman-background.png');
+  border-radius: 10px 10px 0 0;
+}
+
+.card-content {
+  margin: 5px 20px;
+  position: relative;
+  bottom: 60px;
+}
+
+img.heart-icon {
+  right: 115px;
+  position: relative;
+  top: 15px;
+}
+
+img.img-profile {
+  position: relative;
+  border-radius: 50%;
+  width: 120px;
+  height: 118px;
+  box-shadow: 0px 2px 7px rgb(0 0 0 / 25%);
+  bottom: 75px;
+}
+
+.item-card-title {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.harley-title {
+  text-transform: none;
+}
+article.item-card.\.last-card{
+  display: none;
+}
+
+button.btn-card {
+  background-color: #00669F;
+  width: 130px;
+  height: 50px;
+  color: white;
+  border: none;
+  margin: auto;
+  outline: none;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  background-color: #00669F;
+  color: white;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+img.logo-footer {
+  width: 30%;
+}
+
+footer a {
+  margin-top: 5px;
+}
 
 @media (min-width: 768px) {
   .cards-container {
@@ -163,60 +171,56 @@ div.secundary-header span {
   }
 
   .sticky-button i {
-    font-size: 3rem;
+    font-size: 2rem;
   }
+
   .sticky-button {
     top: 74%;
-    left:92%;
-}
-.sticky-button:hover{
-  cursor: pointer;
-  
-}
-.sticky-button i:hover{
-  color: #014369;
-}
-img.logo-footer {
-  width: 30%;
-  float: right;
-  margin-right: 15px;
-}
-footer {
-  justify-content:flex-end;
-  flex-direction: row;
-  font-size: 1rem;
-}
-div.logo-footer {
-  width: 30%;
-}
-}
-@media (min-width: 1024px){ 
-  .cards-container {
-    flex-wrap: wrap;
+    left: 92%;
   }
-  
-  .item-card {
-    margin: 25px 15px;
+
+  .sticky-button:hover {
+    cursor: pointer;
+
   }
-  
-   .sticky-button {
-    display: none;
-  }  
-  
-  .cards-container{
-    margin: 0;
+
+  .sticky-button i:hover {
+    color: #014369;
   }
-  /* img.logo-footer {
-    width: 20%;
-    float: right;
-    margin-right: 15px;
+
+  img.logo-footer {
+    position: absolute;
+    right: 25px;
+    width: 100px;
+    bottom: 5px;
+  }
+
+  img.logo-footer {
+    position: absolute;
+    right: 25px;
+    width: 100px;
+    bottom: 5px;
+  }
+  article.item-card.\.last-card{
+    display: block;
   }
   footer {
-    justify-content:flex-end;
     flex-direction: row;
     font-size: 1rem;
   }
-  div.logo-footer {
-    width: 40%;
-  } */
+}
+
+@media (min-width: 1024px) {
+  .item-card {
+    margin: 25px 15px;
+  }
+
+  .sticky-button {
+    display: none;
+  }
+
+  .cards-container {
+    margin: 0;
+  }
+
 }
