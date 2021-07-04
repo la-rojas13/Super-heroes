@@ -50,8 +50,16 @@ main {
 
 .sticky-button {
   position: fixed;
+  top: 83%;
+  right: 10px;
+  /* left: 85%;;
+  /* position: absolute;
   top: 80%;
-  left: 85%;
+  right: 10px; */
+  /* left: 85%; */
+  /* position: relative;
+  bottom: 10px;
+  right: 10px; */
 }
 
 .sticky-button i {
@@ -175,8 +183,9 @@ footer a {
   }
 
   .sticky-button {
-    top: 74%;
-    left: 92%;
+    top: 90%;
+    /* top: 74%;
+    left: 92%; */
   }
 
   .sticky-button:hover {
@@ -199,7 +208,7 @@ footer a {
     position: absolute;
     right: 25px;
     width: 100px;
-    bottom: 5px;
+    bottom: 13px;
   }
   article.item-card.\.last-card{
     display: block;
