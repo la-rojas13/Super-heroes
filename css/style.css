@@ -11,7 +11,7 @@ body {
 }
 
 div.secundary-header {
-  background-color: #9e9992;
+  background-color: #D1891C;
   padding: 5px;
   color: #333333;
 }
@@ -50,7 +50,7 @@ main {
 
 .sticky-button {
   position: fixed;
-  right: 20px;
+  right: 15px;
   bottom: 100px;
 }
 
