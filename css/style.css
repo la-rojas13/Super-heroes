@@ -44,6 +44,14 @@ header nav ul li a{
     text-decoration: none;
     font-weight: 500;
 }
+header div.desktop-nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+header div.mobile-nav{
+    display: none;
+}
 
 /*ESTILO BOTON */
 button.btn-start{
@@ -207,4 +215,20 @@ div.footer-form span{
     margin-top: 60px;
     font-size: 12px;
     color: var(--azul-grisáceo-oscuro);
+}
+/*---------------TABLET--------------------------*/
+@media (min-widht: 768px){
+
+    header div.desktop-nav{
+        display: none;
+    }
+    header div.mobile-nav{
+        display: block;
+    } 
+    section.main-section{
+        flex-direction: column-reverse;
+    }
+    div.main-section-text , div.main-section-image {
+        margin: auto;
+    }
 }
