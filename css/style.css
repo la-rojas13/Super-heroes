@@ -518,7 +518,8 @@ footer span.copright-mobile {
     div.main-section-text p.description-text,
     div.about-section-text-content p {
         color: var(--azul-grisáceo-oscuro);
-        margin: 30px 20px;
+        margin: 10px auto;
+    width: 90%;
     }
 
     section.banner-section {
