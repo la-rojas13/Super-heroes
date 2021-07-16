@@ -224,7 +224,9 @@ section.testimonials-section {
     margin: 50px 0;
 } */
 div.slider {
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
     position: relative;
     width: 100%;
     height: 220px;
@@ -250,7 +252,7 @@ div.slider article {
 
 div.container-items article img{
 position: absolute;
-top: -30%;
+top: -25%;
 margin-left: auto;
 margin-right: auto;
 left: 0;
@@ -282,6 +284,9 @@ div.slider article:first-child {
 
 div.slider article:target {
     opacity: 1;
+}
+div.container-items ul{
+    margin:20px;
 }
 
 div.container-items ul li {
