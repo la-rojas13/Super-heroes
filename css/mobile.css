@@ -21,7 +21,9 @@
 
 body {
     font-family: var(--primary-font);
-    overflow-x: hidden;
+    background-image: url(../imagenes/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: top -360px left -15%;
 }
 
 /* div.bg-img-top {
