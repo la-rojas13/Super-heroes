@@ -3,9 +3,9 @@
 /*ESTILOS GENERALES*/
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 :root {
@@ -20,33 +20,33 @@
 }
 
 body {
-    font-family: var(--primary-font);
     background-image: url(../imagenes/bg-tablet-pattern.svg);
-    background-repeat: no-repeat;
     background-position: top -360px left -15%;
+    background-repeat: no-repeat;
+    font-family: var(--primary-font);
 }
 
 h2.highlight-text {
-    margin: 20px auto;
-    margin-top: 20px;
     color: var(--azul-oscuro);
     font-size: 30px;
     font-weight: 700;
+    margin-top: 20px;
+    margin: 20px auto;
 }
 
 /*HEADER*/
 header {
-    margin: 20px;
-    height: 100px;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
     color: var(--azul-oscuro);
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    margin: 20px;
 }
 
 header div.mobile-nav i.menu-icon {
-    font-size: 25px;
     cursor: pointer;
+    font-size: 25px;
     transition: color .5s;
 }
 
@@ -60,15 +60,15 @@ header div.desktop-nav {
 
 /*ESTILO BOTON */
 button.btn-start {
-    color: white;
     background-color: var(--rojo-brillante);
-    height: 50px;
-    width: 140px;
     border-radius: 50px;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     border: none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: white;
     cursor: pointer;
+    height: 50px;
     transition: background-color .5s;
+    width: 140px;
 }
 
 button.btn-start:hover {
@@ -107,20 +107,20 @@ div.about-section-text-content p {
 /*ABOUT SECTION*/
 
 div.card-header {
-    display: flex;
     background-color: var(--rojo-muy-pálido);
     border-radius: 20px 0px 0px 20px;
+    display: flex;
 }
 
 div.card-number {
-    width: 80px;
-    height: 40px;
     background-color: var(--rojo-brillante);
-    color: white;
     border-radius: 30px;
-    text-align: center;
-    margin-right: 20px;
+    color: white;
+    height: 40px;
     line-height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    width: 80px;
 }
 
 div.card-header h2 {
@@ -136,7 +136,6 @@ div.card-content p {
 
 
 div.card-content p {
-    /* width: 100%; */
     margin-top: 20px 0;
 }
 
@@ -297,16 +296,16 @@ div.footer-icons i:hover {
 }
 
 div.footer-list {
-    text-align: left;
-    margin: 40px 0;
-    justify-content: space-between;
     display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    text-align: left;
     width: 100%;
 }
 
 div.footer-list div ul {
-    list-style-type: none;
     color: var(--rojo-muy-pálido);
+    list-style-type: none;
 }
 
 div.footer-list ul li {
@@ -328,12 +327,12 @@ div.footer-form {
 }
 
 div.footer-form input[type="email"] {
-    width: 200px;
-    height: 40px;
     border-radius: 20px;
     border: none;
+    height: 40px;
     margin-right: 10px;
     outline: none;
+    width: 200px;
 }
 
 div.footer-form input[type="email"]::placeholder {
@@ -345,14 +344,14 @@ div.footer-form input[type="email"]:invalid {
 }
 
 div.footer-form input[type="submit"] {
-    width: 60px;
-    height: 40px;
     background-color: var(--rojo-brillante);
-    border: none;
     border-radius: 20px;
+    border: none;
     color: var(--rojo-muy-pálido);
     cursor: pointer;
+    height: 40px;
     transition: background-color .5s;
+    width: 60px;
 }
 
 div.footer-form input[type="submit"]:hover {
@@ -360,9 +359,9 @@ div.footer-form input[type="submit"]:hover {
 }
 
 footer span {
-    margin-top: 60px;
-    font-size: 12px;
     color: var(--azul-grisáceo-oscuro);
+    font-size: 12px;
+    margin-top: 60px;
 }
 
 footer span.copright-desktop {
@@ -374,6 +373,7 @@ footer span.copright-desktop {
     body {
         background-position: top -180px left -200%;
     }
+
     header {
         margin: 50px;
     }
@@ -400,8 +400,9 @@ footer span.copright-desktop {
 
 @media (min-width: 1024px) {
     body {
-        background-position: top -200px right -30%;
+        background-position: top -200px right -50%;
     }
+
     /*HEADER*/
     header {
         margin: 50px 100px;
@@ -426,8 +427,8 @@ footer span.copright-desktop {
 
     header nav ul li a {
         color: var(--azul-oscuro);
-        text-decoration: none;
         font-weight: 500;
+        text-decoration: none;
     }
 
     header nav ul li a:hover {
@@ -435,18 +436,18 @@ footer span.copright-desktop {
     }
 
     header div.desktop-nav {
-        width: 70%;
         display: flex;
         justify-content: space-between;
+        width: 70%;
     }
 
     /*MAIN SECTION*/
     section.main-section,
     section.about-section {
-        width: 100%;
         flex-direction: row;
         justify-content: space-around;
         margin: 100px auto;
+        width: 100%;
     }
 
     div.main-section-image img {
@@ -462,48 +463,34 @@ footer span.copright-desktop {
 
     div.main-section-text h2.highlight-text {
         font-size: 50px;
-        width: 400px;
         line-height: 60px;
+        width: 400px;
     }
 
     div.main-section-text p.description-text {
         width: 300px;
     }
 
-/*ABOUT SECTION*/
-div.about-section-text {
-    margin-top: -250px;
-    width: 50%;
-    height: 100%;
-}
+    /*ABOUT SECTION*/
+    div.about-section-text {
+        margin-top: -250px;
+        height: 100%;
+        width: 50%;
+    }
 
-div.about-section-text-content {
-    width: 50%;
-    margin: -10px 25% 0;
-}
-
-div.card-container {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-    /* .about-section-text {
-        margin-top: -350px;
-    } */
-/* 
-    div.about-section-text-content p {
-        width: 250px;
-        margin-top: 10px;
-    } */
-
-    div.about-section-text h2 {
-        background-color: transparent;
+    div.about-section-text-content {
+        margin: -10px 25% 0;
+        width: 50%;
     }
 
     div.card-container {
-        width: 50%;
         display: flex;
         flex-direction: column;
+        width: 50%;
+    }
+
+    div.about-section-text h2 {
+        background-color: transparent;
     }
 
     div.card-header {
