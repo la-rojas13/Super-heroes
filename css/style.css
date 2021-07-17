@@ -371,7 +371,7 @@ footer span.copright-desktop {
 /*---------------TABLET--------------------------*/
 @media (min-width: 768px) {
     body {
-        background-position: top -180px left -200%;
+        background-position: top -180px left -250%;
     }
 
     header {
@@ -591,6 +591,6 @@ footer span.copright-desktop {
 }
 @media (min-width: 1280px) {
     body {
-        background-position: top -100px right -40%;
+        background-position: top -100px right -10%;
     }
 }
